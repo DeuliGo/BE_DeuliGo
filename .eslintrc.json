@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["airbnb-base", "eslint:recommended", "prettier", "plugin:prettier/recommended"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 15,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-vars": "warn",
+        "spaced-comment": ["warn", "always"], // 주석 앞에 공백
+        "import/extensions": ["error", "ignorePackages"],
+        "prettier/prettier": "error"
+    }
+}
